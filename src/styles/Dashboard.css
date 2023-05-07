@@ -1,0 +1,507 @@
+.sche1{
+    border-left: 5px solid #9BDD7C;
+    padding-left: 10px;
+    margin-top: 3vh;
+}
+.sche2{
+    border-left: 5px solid #6972C3;
+    padding-left: 10px;
+    margin-top: 2vh;
+    position: relative;
+}
+.sche1 p{
+    margin-top: -1vh;
+}
+.sche2 p{
+    margin-top: -1vh;
+}
+.mainn{
+    display: flex;
+    background-color: #DDDDDD;
+    height: 100vh;
+    width: 100vw;
+}
+.side{
+    background-color: black;
+    color: white;
+    height: 83vh;
+    margin-top: 4vh;
+    margin-left: 4vh;
+    padding: 5vh;
+    border-radius: 30px;
+    width: 25vw;
+    -webkit-transform:scale(1.1,1);
+}
+.side h1{
+    position: relative;
+    -webkit-transform:scale(1.1,1);
+    font-weight: 700;
+    left: 1.5vw;
+}
+.rightSide{
+    margin-left: 4vw;
+}
+.titleBar{
+    display: flex;
+    width: 75vw;
+    margin-top: 4vh;
+}
+.sear{
+    margin-left: auto;
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-right: 1vw;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.search{
+   border:0;
+   
+}
+.dashh{
+    font-weight: 700;
+    font-size: 2.5vh;
+    -webkit-transform:scale(1.1,1);
+}
+.numbers{
+    display: flex;
+    width: 75vw;
+}
+.subCat{
+    margin-top: 4vh;
+}
+.subCat:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.sub{
+    margin-bottom: auto;
+}
+.helpDesk{
+    margin-top: 38vh;
+}
+.helpDesk p{
+    font-size: 1.5vh;
+}
+.helpDesk p:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+}
+.schedule{
+    background-color:white;
+    width: 33vw;
+    height: 28vh;
+    border-radius: 20px;
+    padding-bottom:1vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+}
+.divv{
+    margin-right: auto;
+    height: 13vh;
+    width: 14vw;
+}
+.div1{
+    background: #DDEFE0;
+    border-radius: 20px;
+}
+.div2{
+    background: #F4ECDD;
+    border-radius: 20px;
+}
+.div3{
+    background: #EFDADA;
+    border-radius: 20px;
+}
+.div4{
+    background: #DEE0EF;
+    border-radius: 20px;
+}
+.divv .icon{
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    width: 3vw;
+    height: 3vh;
+}
+.divv p{
+    margin-left: 1.5vw;
+    margin-top: 5vh;
+    font-size: smaller;
+}
+.divv h3{
+    position: relative;
+    margin-top: -1vh;
+    margin-left: 1.5vw;
+}
+.notifyy{
+    height: 3vh;
+    width: auto;
+    margin-right: 1vw;
+}
+.profile{
+    height: 3vh;
+    width: 3vh;
+    margin-right: 4vw;
+    border-radius: 50%;
+} 
+@media only screen and (max-width: 850px) {
+    .side h1{
+        position: relative;
+        -webkit-transform:scale(1.1,1);
+        font-weight: 700;
+        left: 0.5vw;
+        font-size: smaller;
+    }
+    .sche1{
+        border-left: 5px solid #9BDD7C;
+        padding-left: 10px;
+        margin-top: 3vh;
+    }
+    .sche2{
+        border-left: 5px solid #6972C3;
+        padding-left: 10px;
+        margin-top: 2vh;
+        position: relative;
+    }
+    .sche1 p{
+        margin-top: -1vh;
+    }
+    .sche2 p{
+        margin-top: -1vh;
+    }
+    .mainn{
+        display: flex;
+        background-color: #DDDDDD;
+        height: 100vh;
+    }
+    .side{
+        background-color: black;
+        color: white;
+        height: 50vh;
+        margin-top: 4vh;
+        margin-left:2vw;
+        padding: 3vh;
+        border-radius: 20px;
+        width: 9vw;
+    }
+    .side h2{
+        font-size: 3vw;
+        left: -3vw;
+    }
+    .rightSide{
+        margin-left: 2vw;
+        margin-right: 2vw;
+        /* width: 75vw; */
+    }
+    .titleBar{
+        display: flex;
+        width: 75vw;
+        margin-top: 4vh;
+    }
+    .sear{
+        margin-left: auto;
+        background-color: white;
+        height: 1.5vh;
+        width: fit-content;
+        padding: 5px;
+        border-radius: 10px;
+        margin-right: 1vw;
+    }
+    .search{
+       border:0;
+       width: 15vw;
+       height: 1vh;
+       font-size: 1vh;
+    }
+    .dashh{
+        font-weight: 700;
+        font-size: 2vh;
+        left: 1vw;
+        position: relative;
+        -webkit-transform:scale(1.1,1);
+    }
+    .numbers{
+        display: flex;
+        width: 75vw;
+    }
+    .subCat{
+        margin-top: 2vh;
+        font-size: 2vw;
+        margin-left: -4vw;
+    }
+    .subCat:hover{
+        font-weight: bolder;
+    }
+    .sub{
+        margin-bottom: auto;
+    }
+    .helpDesk{
+        margin-top: 19vh;
+    }
+    .helpDesk p{
+        font-size: 2vw;
+    }
+    .helpDesk p:hover{
+        font-weight: bolder;
+    }
+    .bottom{
+        display: flex;
+        position: absolute;
+        width: 100vw;
+        left: 2vw;
+        top: 60vh;
+    }
+    .schedule{
+        background-color:white;
+        width: 47vw;
+        height: 28vh;
+        border-radius: 20px;
+        padding-bottom:1vw;
+        font-size: larger;
+        /* margin-left: auto; */
+        margin-right: 4vw;
+        margin-top: 2vh;
+    }
+    .schedule select{
+        background-color: transparent;
+        font-size: 1vh;
+    }
+    .divv{
+        margin-right: auto;
+        height: 10vh;
+        width: 16vw;
+    }
+    .div1{
+        background: #DDEFE0;
+        border-radius: 20px;
+    }
+    .div2{
+        background: #F4ECDD;
+        border-radius: 20px;
+    }
+    .div3{
+        background: #EFDADA;
+        border-radius: 20px;
+    }
+    .div4{
+        background: #DEE0EF;
+        border-radius: 20px;
+    }
+    .divv .icon{
+        position: absolute;
+        margin-left: 10vw;
+        margin-top: 1vh;
+        width: 3vw;
+        height: 3vh;
+    }
+    .divv p{
+        margin-left: 1.5vw;
+        margin-top: 4vh;
+        font-size: 2vw;
+    }
+    .divv h3{
+        position: relative;
+        margin-top: -1vh;
+        margin-left: 1.5vw;
+        font-size: 2.75vw;
+    }
+    .notifyy{
+        height: 3vh;
+        width: auto;
+        margin-right: 1vw;
+    }
+    .profile{
+        height: 3vh;
+        width: 3vh;
+        margin-right: 4vw;
+        border-radius: 50%;
+    } 
+    
+      
+}
+
+@media only screen and (max-width: 600px) {
+    .side h1{
+        position: relative;
+        -webkit-transform:scale(1.1,1);
+        font-weight: 700;
+        left: -0.5vw;
+        font-size: smaller;
+    }
+    .sche1{
+        border-left: 5px solid #9BDD7C;
+        padding-left: 10px;
+        margin-top: 3vh;
+    }
+    .sche2{
+        border-left: 5px solid #6972C3;
+        padding-left: 10px;
+        margin-top: 2vh;
+        position: relative;
+    }
+    .sche1 p{
+        margin-top: -1vh;
+    }
+    .sche2 p{
+        margin-top: -1vh;
+    }
+    .mainn{
+        display: flex;
+        background-color: #DDDDDD;
+        height: 100vh;
+    }
+    .side{
+        background-color: black;
+        color: white;
+        height: 50vh;
+        margin-top: 4vh;
+        margin-left:2vw;
+        padding: 3vh;
+        border-radius: 15px;
+        width: 9vw;
+    }
+    .side h2{
+        font-size: 4vw;
+        left: -5vw;
+    }
+    .rightSide{
+        margin-left: 2vw;
+        margin-right: 2vw;
+        /* width: 75vw; */
+    }
+    .titleBar{
+        display: flex;
+        width: 75vw;
+        margin-top: 4vh;
+    }
+    .sear{
+        margin-left: auto;
+        background-color: white;
+        height: 1.5vh;
+        width: fit-content;
+        padding: 5px;
+        border-radius: 10px;
+        margin-right: 1vw;
+    }
+    .search{
+       border:0;
+       width: 15vw;
+       height: 1vh;
+       font-size: 1vh;
+    }
+    .dashh{
+        font-weight: 700;
+        font-size: 2vh;
+        left: 1vw;
+        position: relative;
+        -webkit-transform:scale(1.1,1);
+    }
+    .numbers{
+        display: flex;
+        width: 75vw;
+    }
+    .subCat{
+        margin-top: 2vh;
+        font-size: 2vw;
+        margin-left: -4vw;
+    }
+    .subCat:hover{
+        font-weight: bolder;
+    }
+    .sub{
+        margin-bottom: auto;
+    }
+    .helpDesk{
+        margin-top: 22vh;
+    }
+    .helpDesk p{
+        font-size: 2vw;
+    }
+    .helpDesk p:hover{
+        font-weight: bolder;
+    }
+    .bottom{
+        display: flex;
+        position: absolute;
+        width: 100vw;
+        left: 2vw;
+        top: 60vh;
+    }
+    .schedule{
+        background-color:white;
+        width: 47vw;
+        height: 30vh;
+        border-radius: 20px;
+        padding-bottom:1vw;
+        font-size: smaller;
+        /* margin-left: auto; */
+        margin-right: 4vw;
+        margin-top: 2vh;
+    }
+    .schedule select{
+        background-color: transparent;
+        font-size: 1vh;
+    }
+    .divv{
+        margin-right: auto;
+        height: 10vh;
+        width: 16vw;
+    }
+    .div1{
+        background: #DDEFE0;
+        border-radius: 20px;
+    }
+    .div2{
+        background: #F4ECDD;
+        border-radius: 20px;
+    }
+    .div3{
+        background: #EFDADA;
+        border-radius: 20px;
+    }
+    .div4{
+        background: #DEE0EF;
+        border-radius: 20px;
+    }
+    .divv .icon{
+        position: absolute;
+        margin-left: 10vw;
+        margin-top: 1vh;
+        width: 3vw;
+        height: 3vh;
+    }
+    .divv p{
+        margin-left: 1.5vw;
+        margin-top: 4vh;
+        font-size: 2.25vw;
+    }
+    .divv h3{
+        position: relative;
+        margin-top: -1vh;
+        margin-left: 1.5vw;
+        font-size: 2.75vw;
+    }
+    .notifyy{
+        height: 3vh;
+        width: auto;
+        margin-right: 1vw;
+    }
+    .profile{
+        height: 3vh;
+        width: 3vh;
+        margin-right: 4vw;
+        border-radius: 50%;
+    } 
+    
+      
+}

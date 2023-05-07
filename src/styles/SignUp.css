@@ -1,0 +1,230 @@
+.mainn{
+    display: flex;
+}
+
+.sideDiv{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 40vw;
+    font-weight: 900;
+    align-items: baseline;
+    justify-content: center;
+    text-align: center;
+}
+.sideDiv p{
+    position: absolute;
+    margin: auto;
+    width: 40%;
+    top: 45vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4vw;
+    /* line-height: 5vw;  */
+    font-stretch: expanded; 
+    color: #FFFFFF;
+    -webkit-transform:scale(1.1,1);
+}
+.signUp{
+    margin: auto;
+    background: #F5F5F5;
+    height: 100vh;
+    width: 60vw;
+   
+}
+.sign{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    margin: auto;
+    width: 40%;
+    margin-top: 25vh;
+    /* left: 2vw; */
+    
+}
+.signIn{
+    font-size: 3vh;
+    font-weight: 900;
+     /* left: 4vw; */
+    /* -webkit-transform:scale(1.1,1);  */
+    /* font-stretch: expanded;  */
+}
+.signInT{
+    font-size: 1.5vh;
+    margin-top: -25px;
+    /* -webkit-transform:scale(1.1,1);  */
+    /* font-stretch: expanded;  */
+}
+.innput{
+    font-size: 2vh;
+    padding: 2vw;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.innput input{
+    background: #F5F5F5;
+border-radius: 10px;
+border: 0;
+width: 95%;
+padding: 1vh;
+}
+.innput button{
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 1vh;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.forgot{
+/* position: absolute; */
+font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+}
+.dont{
+    display: flex;
+    text-align: center;
+    color: grey;
+    font-size: 1.5vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.colorBlue{
+    color: #346BD4;
+}
+.register{
+    margin-left: 0.5vw;
+}
+.signInButton {
+    border:0;
+    border-radius: 7px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    margin-bottom:10px;
+    color: grey;
+    font-size: 1.25vh;
+
+}
+@media only screen and (max-width: 830px) {
+    .signUp{
+        margin: auto;
+        background: #F5F5F5;
+        height: 100vh;
+        width: 60vw;
+    }
+    .sign{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        margin: auto;
+        width: 70%;
+        margin-top: 25vh;
+    }
+    .signIn{
+        font-size: 2vh;
+        font-weight: 700;
+    }
+    .signInT{
+        font-size: 1vh;
+        margin-top: -18px;
+    }
+    .innput{
+        font-size: 1vh;
+        padding: 1vw;
+        background-color: #ffffff;
+        border-radius: 20px;
+    }
+    .innput input{
+    background: #F5F5F5;
+    border-radius: 10px;
+    border: 0;
+    width: 95%;
+    padding: 1vh;
+    }
+    .innput button{
+        width: 100%;
+        color: white;
+        background-color: black;
+        padding: 1vh;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    .forgot{
+    /* position: absolute; */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vh;
+    line-height: 1.5vh;
+    }
+    .dont{
+        display: flex;
+        text-align: center;
+        font-size: smaller;
+        margin-left: 5%;
+    }
+  }
+@media only screen and (max-width: 500px) {
+    .signUp{
+        margin: auto;
+        background: #F5F5F5;
+        height: 100vh;
+        width: 60vw;
+    }
+    .sign{
+        font-family: 'Montserrat';
+        font-style: normal;
+        margin: auto;
+        width: 95%;
+        margin-top: 25vh;
+    }
+    .signIn{
+        font-size: 2vh;
+        font-weight: 700;
+    }
+    .signInT{
+        font-size: 1vh;
+        margin-top: -18px;
+    }
+    .innput{
+        font-size: 2vh;
+        padding: 1vw;
+        background-color: #ffffff;
+        border-radius: 20px;
+    }
+    .innput input{
+        background: #F5F5F5;
+    border-radius: 10px;
+    border: 0;
+    width: 95%;
+    padding: 1vh;
+    }
+    .innput button{
+        width: 100%;
+        color: white;
+        background-color: black;
+        padding: 1vh;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    .forgot{
+    /* position: absolute; */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vh;
+    line-height: 1.5vh;
+    }
+    .dont{
+        display: flex;
+        text-align: center;
+        font-size: smaller;
+        margin-left: 5%;
+    }
+  }

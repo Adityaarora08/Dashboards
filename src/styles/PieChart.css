@@ -1,0 +1,55 @@
+.chartt{
+    width: 33vw;
+    height: 28vh;
+    background-color:white;
+    margin-top:2vh;
+    border-radius: 20px;
+    padding-bottom:2vh;
+    margin-right:auto;
+}
+.chartt select{
+    border:0;
+    color:grey;
+    margin-left:auto;
+    background-color: transparent;
+}
+Chart{
+    width: 33vw;
+    height: 28vh;
+}
+@media only screen and (max-width:850px){
+    Chart{
+        width: 50vw;
+        height: 50vh;
+    }
+    .chartt{
+        background-color:white;
+        width: 47vw;
+        height: 28vh;
+        border-radius: 20px;
+        padding-bottom:1vw;
+        font-size: larger;
+        margin-left: 0;
+        margin-right: 0vw;
+        margin-top: 2vh;
+    }
+    .chartt select{
+        font-size: 1vh;
+    }
+}
+@media only screen and (max-width:600px){
+    .chartt{
+        background-color:white;
+        width: 47vw;
+        height: 30vh;
+        border-radius: 20px;
+        padding-bottom:1vw;
+        font-size: smaller;
+        margin-left: 0;
+        margin-right: 0vw;
+        margin-top: 2vh;
+    }
+    .chartt select{
+        font-size: 1vh;
+    }
+}
